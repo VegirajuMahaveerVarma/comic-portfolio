@@ -10,7 +10,6 @@ const display = Bangers({weight: '400', subsets: ['latin'], variable: '--font-di
 const sans = Comic_Neue({weight: ['400', '700'], subsets: ['latin'], variable: '--font-sans'});
 
 export const metadata = {
-  metadataBase: new URL('https://github.com'),
   title: {
     default: `${site.name} | AI & ML Portfolio`,
     template: `%s | ${site.name}`
